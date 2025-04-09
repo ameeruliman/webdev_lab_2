@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Confrence Registration Form</title>
+</head>
+<body>
+    
+<h2>Confrence Registration Form</h2>
+<form>
+    Full Name: <br> <input type="text" name="fullname" id="fullname" placeholder="Enter your full name"> <br>
+    Email Address: <br> <input type="email" name="email" id="email" placeholder="Enter your email address"> <br>
+    Age: <br> <input type="number" name="age" id="age" placeholder="18" style="width: 40px;"> <br><br>
+
+    Gender:<br>
+    <input type="radio" name="sex" value="male">Male <br>
+    <input type="radio" name="sex" value="female">Female <br><br>
+
+    Country of Residence:<br>
+    <select name="country">
+        <option value="Malaysia">Malaysia</option>
+        <option value="Singapore">Singapore</option>
+        <option value="Thailand">Thailand</option>
+        </select> <br><br>
+    
+   Area of Interest:<br>
+    <input type="checkbox" name="Area of Interest" value="Software Development">Software Development<br>
+    <input type="checkbox" name="Area of Interest" value="Data Science">Data Science<br>
+    <input type="checkbox" name="Area of Interest" value="Cybersecurity">Cybersecurity<br>
+    <input type="checkbox" name="Area of Interest" value="Artificial Inteligence">Artificial Inteligence<br><br>
+
+    Experience Level:<br>
+    <input type="radio" name="level" value="Biginner">Biginner <br>
+    <input type="radio" name="level" value="Intermidiate">Intermidiate <br>
+    <input type="radio" name="level" value="Advanced">Advanced <br><br>
+
+    Comments or Question:<br>
+    <textarea id="review" name="review" rows="4" cols="50"> Any comment or question?
+    </textarea> <br>
+    <input type="submit" value="Register">
+    <input type="reset" value="Reset">
+
+
+</form>
+</body>
+</html>
